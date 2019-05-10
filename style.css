@@ -1,0 +1,153 @@
+/*pengaturan body*/
+body {
+	background: grey;
+	text-align:center;
+	font-family:verdana, Tahoma ,Helvetica;
+	font-size:12px;
+}
+
+/*pengaturan layout utama*/
+#layout{
+	background: grey;
+	width: 980px;
+	margin:auto;
+	text-align:center;
+	padding:2px;
+}
+
+#header{
+	width: 980px;
+	height:130px;
+	background-color:#fff;
+	position:relative;
+}
+
+.header {
+	width: 980px;
+	height:130px;
+}
+
+
+
+/*pengaturan menu*/
+#menu {
+	width: 100%;
+	height: 40px;
+	background-color:maroon;
+}
+
+
+/*pengaturan menu*/
+#menu ul {
+	margin :0;
+	padding:0;
+	list-style:none;
+}
+
+
+#menu ul li {
+	float :left;
+}
+#menu ul li {
+	float :left;
+	color:#d4d4d4;
+	padding: 12px 20px;
+	text-decoration:none;
+	background: maroon;
+	border-left: 1px solid #3c4042;
+	border-right: 1px solid #3c4042;
+	text-shadow: 0 -1px 1px rgba (0, 0, 0, 0.6)
+	
+}
+
+#menu ul li a {
+	color :white;
+	background: #3c4042;
+}
+
+#sidebar {
+	padding: 5px;
+	width: 27%;
+	background-color: #d3beaa;
+	position: relative;
+	float:right;
+	
+
+}
+
+/*conten*/
+#conten {
+	position:100%;
+	background:#fff;
+	margin:0px 20px;
+}
+#kiri{
+	width:1000px;
+	height: auto;
+	background: red;
+}
+
+/*pengaturan widget sidebar*/
+.widged {
+width: 980px;
+    background-bottom:5px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	font-size: 100%;
+	margin:0px 0px 5px 0px;
+
+}
+
+/*pengaturan huruf judul widget*/
+.judulwidged{
+	background: #d74006;
+	padding: 5px 10px 5px 10px
+	margin:center;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	margin-bottom: 5px; 
+}
+
+/*pengaturan isi*/
+#isi {
+	padding: 1px;
+	width: 980px;
+	height:auto;
+	background-color:maroon;
+	position:center;
+	margin:auto;
+
+}
+/*pengaturan posting*/
+.isiposting{
+	background-color: #bc9d64;
+	width: 980px;
+	height:auto;
+	margin:auto;
+	padding: 1px;
+
+}
+
+#tabel {
+	font-family: Times New Roman;
+	font-size: 11px;
+	border-width: 1px;
+	border-color: white;
+}
+
+
+#footer {
+	width:100%;
+	height:30;
+	background-color:"";
+	color:white;
+	font-size: 9pt;
+	text-align: center;
+	position: relative;
+	clear: both;
+
+
+}
